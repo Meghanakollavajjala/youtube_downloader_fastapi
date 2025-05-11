@@ -1,33 +1,43 @@
-# 🎬 YouTube Downloader API (FastAPI)
+# 🎬 YouTube Downloader (FastAPI + GitHub Pages)
 
-This project provides a simple REST API built with **FastAPI** and **yt-dlp** that allows users to:
+This project provides a **YouTube video downloader** using **FastAPI** as the backend and **HTML/JavaScript** frontend. It enables users to:
 
-- 🔍 Fetch available formats for a YouTube video
-- 📥 Download a video in selected resolution with merged audio
-- 🎧 Ensure playback compatibility (MP4 + audio)
+- 🔍 Fetch available formats for any YouTube video
+- 📥 Download video in selected resolution **with audio merged**
+- 🎧 Ensure playback compatibility (MP4 format with audio)
+- 🌐 Use via browser (CORS enabled) with a simple UI
 
 ---
 
 ## 🚀 Features
 
-- Fetch YouTube video formats via POST
-- Download MP4 video with audio (using `yt-dlp` and `ffmpeg`)
-- CORS enabled (usable from web frontends)
-- Minimal and production-friendly setup
+✅ Get YouTube video formats via API  
+✅ Download MP4 video with audio using `yt-dlp`  
+✅ Backend deployed on **Render**  
+✅ Frontend hosted on **GitHub Pages**  
+✅ Clean, minimal UI and setup  
+✅ Compatible with modern browsers  
+
+---
+
+## 🌐 Live Demo
+
+- 🔗 **Frontend**: [https://meghanakollavajjala.github.io/youtube_downloader_fastapi/index.html](https://meghanakollavajjala.github.io/youtube_downloader_fastapi/index.html)  
+- 🔗 **Backend API** (Render): [https://youtube-downloader-fastapi-d3ot.onrender.com](https://youtube-downloader-fastapi-d3ot.onrender.com)
 
 ---
 
 ## 🛠️ Requirements
 
 - Python 3.7+
-- FFmpeg installed and accessible from PATH
-- yt-dlp (auto-installed via `requirements.txt`)
+- FFmpeg installed and accessible via system PATH
+- `yt-dlp` (installed via `requirements.txt`)
 
 ---
 
-## 📦 Setup
+## ⚙️ Setup Locally
 
-```bash
-git clone https://github.com/yourusername/youtube-downloader-fastapi.git
-cd youtube-downloader-fastapi
-pip install -r requirements.txt
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/meghanakollavajjala/youtube_downloader_fastapi.git
+   cd youtube_downloader_fastapi
