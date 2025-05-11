@@ -41,3 +41,16 @@ This project provides a **YouTube video downloader** using **FastAPI** as the ba
    ```bash
    git clone https://github.com/meghanakollavajjala/youtube_downloader_fastapi.git
    cd youtube_downloader_fastapi
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+3. Run FastAPI backend
+
+uvicorn App:app --reload
+
+4. Open frontend
+Just open index.html in your browser
+Or deploy using GitHub Pages as you’ve done
+
