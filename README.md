@@ -1,4 +1,4 @@
-# 🎬 YouTube Downloader (FastAPI + GitHub Pages)
+# 🎬 YouTube Downloader (FastAPI)
 
 This project provides a **YouTube video downloader** using **FastAPI** as the backend and **HTML/JavaScript** frontend. It enables users to:
 
